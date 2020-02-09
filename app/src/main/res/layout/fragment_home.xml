@@ -23,7 +23,6 @@
         android:background="@color/colorPrimary"
         android:backgroundTint="@color/colorPrimary"
         app:borderWidth="0dp"
-        android:onClick=""
         android:src="@drawable/ic_edit_white_24dp" />
 
 </RelativeLayout>

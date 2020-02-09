@@ -26,6 +26,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
     public PostAdapter(ArrayList<Post> postArrayList, Context context) {
         this.postArrayList = postArrayList;
         this.context = context;
+
     }
 
     @NonNull

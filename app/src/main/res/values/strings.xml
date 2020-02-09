@@ -12,4 +12,5 @@
     <string name="profile">Profile</string>
     <string name="dummy_name">Tony Stark</string>
     <string name="dummy_content">Satu dua tiga empat lima enam tujuh delapan sembilan sepuluh sebelas dua belas tiga belas</string>
+    <string name="hapus_post">Hapus post</string>
 </resources>

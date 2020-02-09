@@ -17,6 +17,13 @@
 
             <include layout="@layout/item_post" />
 
+            <Button
+                android:id="@+id/btn_delete_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/hapus_post" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_comment"
                 android:layout_width="match_parent"
@@ -32,8 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@android:color/white"
-        android:orientation="horizontal"
         android:gravity="center"
+        android:orientation="horizontal"
         android:padding="8dp">
 
         <EditText
@@ -46,8 +53,8 @@
         <Button
             android:id="@+id/btn_submit_comment"
             android:layout_width="80dp"
-            android:layout_marginVertical="4dp"
             android:layout_height="50dp"
+            android:layout_marginVertical="4dp"
             android:background="@drawable/bg_btn_blue"
             android:text="Send"
             android:textAllCaps="false"
