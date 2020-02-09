@@ -26,12 +26,6 @@ public class CommentsAdapter extends RecyclerView.Adapter<CommentsAdapter.ViewHo
         this.list_comments = list_comments;
     }
 
-    public void setData(ArrayList<Comment> items) {
-        list_comments.clear();
-        list_comments.addAll(items);
-        notifyDataSetChanged();
-    }
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull final ViewGroup parent, int viewType) {
